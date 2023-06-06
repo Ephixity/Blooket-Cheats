@@ -221,7 +221,7 @@ details summary ~ * {
             'Toggle Auto Answer': () => { autoAnswer = !autoAnswer },
             'Toggle Highlight Answers': () => { highlightAnswers = !highlightAnswers },
             'Spam Open Boxes': () => {
-                let box = prompt(`Which box do you want to open? (e.g. Space)`);
+                let box = prompt(`which box do you want to open? (e.g. Space)`);
                 let boxes = {
                     safari: 25,
                     aquatic: 20,
